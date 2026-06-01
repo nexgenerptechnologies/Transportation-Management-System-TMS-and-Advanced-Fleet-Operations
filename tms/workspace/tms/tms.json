@@ -1,0 +1,40 @@
+{
+ "name": "TMS",
+ "module": "TMS",
+ "label": "TMS Operations",
+ "type": "Workspace",
+ "is_standard": 1,
+ "icon": "truck",
+ "public": 1,
+ "content": "[{\"id\":\"route_planning\",\"type\":\"header\",\"data\":{\"text\":\"Route Planning\",\"level\":3}},{\"id\":\"routes_links\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TMS Route\"}},{\"id\":\"dispatch_links\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TMS Dispatch\"}},{\"id\":\"settlements\",\"type\":\"header\",\"data\":{\"text\":\"Driver Settlements\",\"level\":3}},{\"id\":\"contracts_links\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TMS Driver Contract\"}},{\"id\":\"settlements_links\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TMS Settlement\"}},{\"id\":\"telematics\",\"type\":\"header\",\"data\":{\"text\":\"Telematics \\u0026 Fleet\",\"level\":3}},{\"id\":\"telemetry_links\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Telemetry Log\"}}]",
+ "charts": [],
+ "shortcuts": [
+  {
+   "shortcut_name": "TMS Route",
+   "type": "DocType",
+   "link_to": "TMS Route"
+  },
+  {
+   "shortcut_name": "TMS Dispatch",
+   "type": "DocType",
+   "link_to": "TMS Dispatch"
+  },
+  {
+   "shortcut_name": "TMS Driver Contract",
+   "type": "DocType",
+   "link_to": "TMS Driver Contract"
+  },
+  {
+   "shortcut_name": "TMS Settlement",
+   "type": "DocType",
+   "link_to": "TMS Settlement"
+  },
+  {
+   "shortcut_name": "Vehicle Telemetry Log",
+   "type": "DocType",
+   "link_to": "Vehicle Telemetry Log"
+  }
+ ],
+ "links": [],
+ "quick_lists": []
+}
