@@ -1,3 +1,19 @@
 [project]
 name = "tms"
-version = "0.0.1"
+authors = [
+    { name = "NexGen ERP Technologies", email = "admin@example.com"}
+]
+description = "Transportation Management System"
+require-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # depending on version
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "tms"
