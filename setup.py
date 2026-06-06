@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 with open("requirements.txt") as f:
-	install_requires = f.read().strip().split("\n")
+	install_requires = [line.strip() for line in f.read().splitlines() if line.strip()]
 
 # get version from __version__ variable in tms/__init__.py
 from tms import __version__ as version
