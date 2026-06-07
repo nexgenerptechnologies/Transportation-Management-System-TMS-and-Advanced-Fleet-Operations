@@ -1,3 +1,7 @@
-# Transportation Management System
+## Transportation Management System (TMS) & Advanced Fleet Operations app for ERPNext
 
-TMS App for Frappe/ERPNext.
+A comprehensive logistics, route planning, driver settlement, and fleet telematics solution built natively for ERPNext.
+
+### License
+
+mit

@@ -5,5 +5,5 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tms"
 version = "0.0.1"
-description = "Transportation Management System"
+description = "Transportation Management System (TMS) & Advanced Fleet Operations app for ERPNext"
 dependencies = []
